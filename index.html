@@ -12,8 +12,6 @@
 </head>
 <body>
 
-	<h1>JiC</h1>
-
 	<nav class="navbar navbar-default navbar-fixes-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,31 +26,49 @@
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse-main">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="mainco.html">Home</a></li>
-					<li><a class="active" href="input.html">Input</a></li>
-					<li><a href="output.html">Output</a></li>
+					<li><a href="page1.php">Home</a></li>
+					<li><a href="input.php">Input</a></li>
+					<li><a class="active" href="output.php">Output</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div id="fixed">
-		
-	</div>
+	<div id="fixed">		
+		<div class="landing-text">
+			<center>
+			<font color="orange">
+			<?php
+				$conn = mysqli_connect('localhost','root','');
+				mysqli_select_db($conn,'bootstrap');
 
-	<div class="padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<img src="shoe.jpg" class="img-responsive">
-			</div>
-			<div class="col-sm-6 text-center">
-				<h2>All about bootstrap.</h2>
-				<p class="lead">akjshfkjhasdjkfhajkshfjkzxh aksjh lakjsh alksjh aslkjh asklfjh askldjfh asdkljh askldjfh iuqwe qwiy hclkvjbnpoqiweu aijhg iqpuf</p>
-				<p class="lead">akjshfkjhasdjkfhajkshfjkzxh aksjh lakjsh alksjh aslkjh asklfjh askldjfh asdkljh askldjfh iuqwe qwiy hclkvjbnpoqiweu aijhg iqpuf</p>
+				$result = mysqli_query($conn,"SELECT * FROM mydata");
+
+					echo "<table class='table table-bordered table-hover'>
+					<tr>
+					<th scope='col'>ID</th>
+					<th>Name</th>
+					<th>Number</th>
+					</tr>";
+
+					while($row = mysqli_fetch_array($result))
+					{
+					echo "<tr>";
+					echo "<td>" . $row['id'] . "</td>";
+					echo "<td>" . $row['name'] . "</td>";
+					echo "<td>" . $row['num'] . "</td>";
+					echo "</tr>";
+					}
+					echo "</table>";
+
+					mysqli_close($conn);
+			?>
+			</font>
+			</center>
 		</div>
 	</div>
-	</div>
+
+
 	
 	<footer class="container-fluid text-center">
 		<div class="row">
