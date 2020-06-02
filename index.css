@@ -21,10 +21,15 @@ body{
 	font-size: 20px;
 }
 
-#title{
-	background-repeat: no-repeat;
-	background-image: url(bgphoto1.jpeg)no-repeat center center fixed;
+#fixed{
+	background: url(https://github.com/joemerivan/portfolio/blob/master/bgphoto1.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
 }
+
 footer{
 	background-color: rgba(23, 19, 32, 0.89);
 	padding: 1% 1% 1% 1%;
