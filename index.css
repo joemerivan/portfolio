@@ -23,9 +23,7 @@
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
-	 filter: blur(8px);
-  -webkit-filter: blur(8px);	
+	background-size: cover;	
 }
 
 footer{
