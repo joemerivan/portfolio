@@ -1,5 +1,5 @@
 body{
-	background-color: rgba(1,1,1,.0);
+	background-image: url(bgphoto1.jpeg) no-repeat center center fixed;
 }
 #bar1{
 	background-color: rgba(23, 19, 32, 0.89);
@@ -19,6 +19,11 @@ body{
 
 #title p{
 	font-size: 20px;
+}
+
+#title{
+	background-repeat: no-repeat;
+	background-image: url(bgphoto1.jpeg)no-repeat center center fixed;
 }
 footer{
 	background-color: rgba(23, 19, 32, 0.89);
