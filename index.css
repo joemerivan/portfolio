@@ -1,9 +1,5 @@
-body{
-	background-image: url(bgphoto1.jpeg) no-repeat center center fixed;
-}
 #bar1{
 	background-color: rgba(23, 19, 32, 0.89);
-	border-radius: 10px;
 }
 #bar1-link a{
 	color: white;
@@ -22,12 +18,14 @@ body{
 }
 
 #fixed{
-	background: url(https://github.com/joemerivan/portfolio/blob/master/bgphoto1.jpeg) no-repeat center center fixed;
+	background: url() no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	 filter: blur(8px);
+  -webkit-filter: blur(8px);	
 }
 
 footer{
