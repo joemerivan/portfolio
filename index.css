@@ -1,15 +1,50 @@
+body{
+	background-color: rgba(1,1,1,.0);
+}
 #bar1{
-	background-color: rgba(1,1,1,.5);
+	background-color: rgba(23, 19, 32, 0.89);
+	border-radius: 10px;
 }
 #bar1-link a{
 	color: white;
 }
 #bar1-link a:hover{
-	color: yellow;
+	color: #6bd0ff;
 }
 #bar1-link a:visited{
+	text-decoration: underline;
+	color: #6bd0ff;
+	/*color: #2c9bce;*/
+}
+footer{
+	width: 100%;
+	background-color: rgba(23, 19, 32, 0.89);
+	padding: 1% 1% 1% 1%;
+}
+.fa{
+	padding: 10px;
+	font-size: 50px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #6bd0ff;
+	text-decoration: none;
+}
+.icon{
+	max-width: 100px;
+}
+.container h2{
+	font-family: "Adobe Garamond Premier Pro", Garamond, "Linux Libertine", "Times New Roman", Georgia;
 	color: black;
 }
-.fa-cog{
-	color: red;
+.container .row{
+	background-color: rgba(1,1,1,.5);
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	color: white;
+}
+.padding {
+	padding: 10px 0;
 }
