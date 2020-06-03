@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css" />
     <title>MyPortfolio</title>
+
 </head>
 
 <body>
@@ -22,8 +23,40 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand text-center" href="#">
-					<img src="profile.png" width="50px" height="30px">
+				<a class="navbar-brand text-center" href="#">	
+					<img src="bgphoto3.jpeg" class="dp" data-toggle="modal" data-target="#basicExampleModal">
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+      	<img src="bgphoto3.jpeg" class="dp2">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      		<p class="info">Joemer Ivan I. Cabaltera</p>
+      		<p class="info">Bachelor of Science in Information Technology</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$(function() {
+
+  $('[data-toggle="modal"]').hover(function() {
+    var modalId = $(this).data('target');
+    $(modalId).modal('show');
+
+  });
+
+});
+</script>
 				</a>
 			</div>
 
@@ -39,13 +72,14 @@
 	</nav>
 
 	<div id="fixed">
+
 	</div>
 	<div class="container" id="title">	
-		<p id="title-text"><span class="text1">Welcome, I'm Joemer Ivan</span></p>
+		<p id="title-text"><span class="text1">Hi I'm Joemer Ivan</span></p>
 		
 	</div>
 	<center>
-		<img src="samplelogo.png" class="img-responsive">
+		<img src="samplelogo.png" class="dp1 img-responsive">
 		</center>
 	
 
@@ -127,9 +161,10 @@
 				</div>
 		
 			<div class="col-sm-4">
-					<a href="#" class="fa fa-google fa-3x"></a>
-					<a href="#" class="fa fa-youtube fa-3x"></a>
-					<a href="#" class="fa fa-github fa-3x"></a>
+					<a href="mailto:joemerivan@gmail.com" class="fa fa-google fa-3x"></a>
+					<a href="https://www.youtube.com/channel/UCpU38i00_2qlRd9H2zXGMQQ?view_as=subscriber" class="fa fa-youtube fa-3x"></a>
+					<a href="https://github.com/joemerivan" class="fa fa-github fa-3x"></a>
+					<a href="#" class="fa fa-telegram fa-3x"></a>
 				</div>
 
 			<div class="col-sm-4">
