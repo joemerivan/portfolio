@@ -38,7 +38,7 @@ footer{
 	color: black;
 }
 .container .row{
-	background-color: rgba(1,1,1,.6);
+	background-color: rgba(1,1,1,.9);
 	border-radius: 20px;
 	margin-bottom: 10px;
 	margin-right: 2px;
@@ -50,16 +50,22 @@ footer{
 }
 
 .devpic{
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #FF4500;
 	height: 90px;
 	width: 90px;
 	padding: 10px;
 }
+.devpic1{
+	height: 320px;
+	width: 190px;
+	padding: 10px;
+}
 
-span{
+.text1{
 	color: #FF4500;
 	transform: translate(-50%,-50%);
-}
-.text1{
 	animation: text 3s 1;
 	position: relative;
 }
