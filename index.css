@@ -5,11 +5,11 @@
 	color: white;
 }
 #bar1-link a:hover{
+	font-size: 16px;
 	color: #6bd0ff;
 }
 #bar1-link a:visited{
-	text-decoration: underline;
-	color: #6bd0ff;
+	color: #FF4500;
 	/*color: #2c9bce;*/
 }
 
@@ -76,4 +76,35 @@ footer{
 	5%{
 		letter-spacing: 3px;
 	}
+}
+
+.dp{
+	margin-top: -10px;
+	border-radius: 50px;
+	height: 40px;
+	width: 50px;
+}
+.dp2{
+	border: double;
+	border-color: black;
+	position: relative;
+	border-radius: 100px;
+	height: 160px;
+	width: 170px;
+}
+#basicExampleModal{
+	background-color: rgba(1,1,1,.5);
+}
+.modal-header{
+	background-color: rgba(1,1,1,.1);
+}
+.modal-body{
+	background-color: rgba(1,1,1,.6);
+}
+.info{
+	color: white; 
+}
+
+.dp1{
+	margin-top: -30px;
 }
