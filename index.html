@@ -11,24 +11,11 @@
 </head>
 
 <style>
-#fixed{
-  	background-image: url('bgphoto1.jpeg');
-  	display: table;
-	height: 300px;
-	position: relative;
-	width: 100%;
-	margin-top: -30px;
-}
-#title{
-	background-color: rgb(0,0,0); /* Fallback color */
-  	background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
-}
 #title-text{
 	margin-top: 10px;
 }
 </style>
 <body>
-
 	
 	<nav id="bar1" class="navbar navbar-default navbar-fixes-top" role="navigation">
 		<div class="container-fluid">
@@ -39,7 +26,8 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="profile.png" width="50px" height="30px">
+				<a class="navbar-brand text-center" href="#">
+					<!--img src="profile.png" width="50px" height="30px"-->
 					
 				</a>
 			</div>
@@ -55,20 +43,19 @@
 	</nav>
 
 	<div id="fixed">
-		<div class="container" id="title">	
-		<p id="title-text"><font color="#FF4500">Welcome, I'm Joemer Ivan</font></p>
-		<center>
+	</div>
+	<div class="container" id="title">	
+		<p id="title-text"><span class="text1">Welcome, I'm Joemer Ivan</span></p>
+		
+	</div>
+	<center>
 		<img src="samplelogo.png" class="img-responsive">
-		<h3>Aspiring Developer</h3>
 		</center>
-	</div>
-	</div>
-
 	
 
 	<div class="padding">
 	<div class="container">
-		<div class="row">
+		<div class="row" id="def">
 			<div class="col-sm-4 text-center">
 				<img class="devpic" src="website.png" class="img-responsive">
 					<h2><center><font color="#FF4500">W</font><font color="white">ebdesign</font></center></h2>
