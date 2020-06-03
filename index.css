@@ -17,15 +17,6 @@
 	font-size: 20px;
 }
 
-#fixed{
-	background: url() no-repeat center center fixed;
-	display: table;
-	height: 100%;
-	position: relative;
-	width: 100%;
-	background-size: cover;	
-}
-
 footer{
 	background-color: rgba(23, 19, 32, 0.89);
 	padding: 1% 1% 1% 1%;
@@ -62,4 +53,21 @@ footer{
 	height: 90px;
 	width: 90px;
 	padding: 10px;
+}
+
+span{
+	color: #FF4500;
+	transform: translate(-50%,-50%);
+}
+.text1{
+	animation: text 3s 1;
+	position: relative;
+}
+@keyframes text{
+	0%{
+		color: white;
+	}
+	5%{
+		letter-spacing: 3px;
+	}
 }
