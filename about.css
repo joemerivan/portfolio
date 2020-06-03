@@ -1,0 +1,10 @@
+#bar1{
+	background-color: rgba(23, 19, 32, 0.89);
+}
+#bar1-link a{
+	color: white;
+}
+#bar1-link a:hover{
+	font-size: 16px;
+	color: #6bd0ff;
+}
