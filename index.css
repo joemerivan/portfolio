@@ -54,9 +54,10 @@ footer{
 	padding: 10px;
 }
 .devpic1{
-	height: 320px;
-	width: 190px;
-	padding: 10px;
+	height: 70%;
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .text1{
